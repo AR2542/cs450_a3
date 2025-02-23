@@ -42,7 +42,7 @@ class SecondChild extends Component {
             .attr("x", width / 2)
             .attr("y", margin.top / 2)
             .attr("text-anchor", "middle")
-            .style("font-size", "16px")
+            .style("font-size", "18px")
             .style("font-weight", "bold")
             .text("Average Tip by Day");
 
@@ -50,7 +50,7 @@ class SecondChild extends Component {
             .attr("x", width / 2)
             .attr("y", height - margin.bottom / 4)
             .attr("text-anchor", "middle")
-            .style("font-size", "14px")
+            .style("font-size", "18px")
             .text("Day");
 
         svg.append("text")
@@ -58,7 +58,7 @@ class SecondChild extends Component {
             .attr("y", margin.left / 4)
             .attr("transform", "rotate(-90)")
             .attr("text-anchor", "middle")
-            .style("font-size", "14px")
+            .style("font-size", "18px")
             .text("Average Tip");
     }
     render() {
